@@ -1,0 +1,15 @@
+.saleList{
+    box-sizing: border-box;
+    padding: 10%;
+    width: 100%;
+}
+
+.saleList p{
+    display: inline;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.margin00{
+    margin-top:30px;
+}

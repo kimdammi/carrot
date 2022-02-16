@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=360,user-scale=yes,user-scalable=no,target-densitydpi=medium-dpi" />
+    <title>곰돌이마켓</title>
+
+    <!-- 구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Open+Sans:wght@300;400&display=swap"
+        rel="stylesheet">
+
+    <!-- 폰트 어썸 -->
+    <script src="https://use.fontawesome.com/11fd148789.js"></script>
+
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/review.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="reviewContainer">
+            <div class="reviewImg clear">
+                <div class="reviewImg1 active">
+                    <img src="../assets/img/review1.PNG" alt="review_img">
+                </div>
+                <div class="reviewImg2">
+                    <img class="margin02" src="../assets/img/review2.PNG" alt="review_img">
+                </div>
+                <div class="reviewImg3">
+                    <img class="margin03" src="../assets/img/review3.PNG" alt="review_img">
+                </div>        
+            </div>
+            <div class="reviewInput">
+                <input type="text" placeholder=" 내용을 입력해주세요.">
+            </div>
+            <form action="">
+                <button>후기 안남기기</button>
+                <button class="reviewBtn">후기 완료</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const reviewImg1=document.querySelector('.reviewImg1');
+        const reviewImg2=document.querySelector('.reviewImg2');
+        const reviewImg3=document.querySelector('.reviewImg3');
+
+        reviewImg1.addEventListener('click', (e)=>{
+            e.preventDefault;
+            reviewImg1.classList.add('active');
+            reviewImg2.classList.remove('active');
+            reviewImg3.classList.remove('active');
+        });
+
+        reviewImg2.addEventListener('click', (e)=>{
+            e.preventDefault;
+            reviewImg1.classList.remove('active');
+            reviewImg2.classList.add('active');
+            reviewImg3.classList.remove('active');
+        });
+
+        reviewImg3.addEventListener('click', (e)=>{
+            e.preventDefault;
+            reviewImg1.classList.remove('active');
+            reviewImg2.classList.remove('active');
+            reviewImg3.classList.add('active');
+        });
+    </script>
+
+</body>
+
+</html>

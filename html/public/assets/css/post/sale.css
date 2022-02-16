@@ -1,0 +1,50 @@
+/* sale_sum 부분*/
+.sale_sum{
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    margin-top: 20px;
+    padding: 0 10px;
+    background-color: #fff;
+}
+
+.sale_sum .post_img{
+    width: 100%;
+    height: width;
+}
+
+.sale_sum h1{
+    font-size:20px;
+}
+
+.post_price{
+    display: inline-block;
+    font-size: 15px;
+}
+
+.post_sale{
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    background-color: #424242;
+    border: none;
+    margin: 0;
+    padding: 4px 5px;
+    border-radius: 4px;
+}
+
+.post_command{
+    font-size: 14px;
+    padding-top:5px;
+}
+
+.post_command i, .post_command p{
+    display: inline;
+}
+
+.comment{
+    padding-right: 7px;
+}
+
+
+/* sale_post 부분*/

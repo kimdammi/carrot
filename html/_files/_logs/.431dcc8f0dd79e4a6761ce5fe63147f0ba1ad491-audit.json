@@ -1,0 +1,55 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 50
+    },
+    "auditLog": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\_files\\_logs\\.431dcc8f0dd79e4a6761ce5fe63147f0ba1ad491-audit.json",
+    "files": [
+        {
+            "date": 1644245805737,
+            "name": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\_files\\_logs\\error_220207.log",
+            "hash": "cb3cc8d27bf1b52a214f79d75ccf4208"
+        },
+        {
+            "date": 1644247453121,
+            "name": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\_files\\_logs\\error_220208.log",
+            "hash": "0f80262491559da2e739ac8e7fddfe0f"
+        },
+        {
+            "date": 1644412057939,
+            "name": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\_files\\_logs\\error_220209.log",
+            "hash": "6bcb5567bb879760e193e611699077a7"
+        },
+        {
+            "date": 1644422189873,
+            "name": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\_files\\_logs\\error_220210.log",
+            "hash": "5ae49f67a833828d72af7bf813ee6f82"
+        },
+        {
+            "date": 1644582379299,
+            "name": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\_files\\_logs\\error_220211.log",
+            "hash": "0c442375bb608b09ec0afa34a9ebe8d9"
+        },
+        {
+            "date": 1644733727738,
+            "name": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\_files\\_logs\\error_220213.log",
+            "hash": "3488f83f7923c0f7c36c8f0d04714340"
+        },
+        {
+            "date": 1644792318763,
+            "name": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\_files\\_logs\\error_220214.log",
+            "hash": "35c281569e09367b00013c9ffbf8388c"
+        },
+        {
+            "date": 1644913762959,
+            "name": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\_files\\_logs\\error_220215.log",
+            "hash": "6a57d6a8417d95a12a6cd6674958ab3b"
+        },
+        {
+            "date": 1644939989026,
+            "name": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\_files\\_logs\\error_220216.log",
+            "hash": "c76336b8f9e83d581f08f6e274a7ae88"
+        }
+    ],
+    "hashType": "md5"
+}

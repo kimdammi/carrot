@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 50
+    },
+    "auditLog": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\helper\\_files\\_logs\\.be485abaed452eaadf2282029e285057209e15fe-audit.json",
+    "files": [
+        {
+            "date": 1644245767606,
+            "name": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\helper\\_files\\_logs\\error_220207.log",
+            "hash": "b9ddb1afe84d2601718f52a25dced077"
+        }
+    ],
+    "hashType": "md5"
+}

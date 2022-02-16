@@ -1,0 +1,42 @@
+#post_plus {
+    position: absolute;
+    top: 80%;
+    right: 7%;
+    font-size: 55px;
+    color: #FD9E8E;
+}
+
+#post_plus:hover{
+    cursor: pointer;
+}
+
+#post_plus_container{
+    display: none;
+    /* background-color: #424242; */
+    /* opacity: 0.5; */
+}
+
+#post_writing{
+    position: absolute;
+    top: 75%;
+    right: 7%;
+    padding: 5px;
+    font-size: 20px;
+    color: #FD9E8E;
+}
+
+#post_writing i{
+    font-size: 30px;
+}
+
+#post_plus_close{ 
+    position: absolute;
+    top: 80%;
+    right: 7%;
+    font-size: 55px;
+    color: #FD9E8E;
+}
+
+#post_plus_container.open{
+    display: block;
+}

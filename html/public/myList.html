@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=360,user-scale=yes,user-scalable=no,target-densitydpi=medium-dpi" /> 
+    <title>곰돌이마켓</title>
+
+    <!-- 구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Open+Sans:wght@300;400&display=swap"
+        rel="stylesheet">
+
+    <!-- 폰트 어썸 -->
+    <script src="https://use.fontawesome.com/11fd148789.js"></script>
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/top_bar_in/bars.css">
+    <link rel="stylesheet" href="./assets/css/post/List.css">
+    <link rel="stylesheet" href="./assets/css/post/sale.css">
+    <link rel="stylesheet" href="./assets/css/profile.css">
+
+</head>
+<body>
+    <!-- 상단바 -->
+    <div data-include="/inc/top_bar.html"></div>
+    <!-- 상단바 기능 -->
+    <div data-include="/inc/top_bar_in/bars.html"></div>
+
+    <div>
+        <!-- 거래내역목록-->
+        <div class="myhistory">
+            <div class="history00 active">거래 중</div>
+            <div class="history01">판매 내역</div>
+            <div class="history02">거래 내역</div>
+            <div class="history03">관심 목록</div>
+        </div>
+
+        <div class="historyCon">
+            <!--거래 중-->
+            <div class="con00 active">
+                <div class="myProfile clear">
+                    <img class="salePost_img fl_left" src="./assets/img/ex01.jpg" alt="profile_img">
+                    <div class="myProfileInfo fl_left">
+                        <h1>제목</h1>
+                        <p> 가격 </p>
+                    </div>
+                    <div class="salePost_btn fl_right">
+                        <button>판매자 확인</button>
+                        <button>구매자 확인</button>
+                    </div>
+                </div>
+            </div>
+            <!--판매 내역-->
+            <div class="con01">
+                <div data-include="/inc/post/sale_sum.html"></div>
+            </div>
+            <!--거래 내역-->
+            <div class="con02">
+                <div data-include="/inc/post/sale_sum.html"></div>
+            </div>
+            <!--관심 목록-->
+            <div class="con03">
+                <div data-include="/inc/post/sale_sum.html"></div>
+            </div>
+        </div>
+
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./assets/js/include.js"/></script>
+    <script defer src="./assets/js/top_bar.js"></script>
+
+    <script>
+        const history00=document.querySelector('.history00');
+        const history01=document.querySelector('.history01');
+        const history02=document.querySelector('.history02');
+        const history03=document.querySelector('.history03');
+
+        const con00=document.querySelector('.con00');
+        const con01=document.querySelector('.con01');
+        const con02=document.querySelector('.con02');
+        const con03=document.querySelector('.con03');
+
+        history00.addEventListener('click', (e)=>{
+            e.preventDefault;
+            history00.classList.add('active');
+            history01.classList.remove('active');
+            history02.classList.remove('active');
+            history03.classList.remove('active');
+
+            con00.classList.add('active');
+            con01.classList.remove('active');
+            con02.classList.remove('active');
+            con03.classList.remove('active');
+        });
+
+        history01.addEventListener('click', (e)=>{
+            e.preventDefault;
+            history00.classList.remove('active');
+            history01.classList.add('active');
+            history02.classList.remove('active');
+            history03.classList.remove('active');
+
+            con00.classList.remove('active');
+            con01.classList.add('active');
+            con02.classList.remove('active');
+            con03.classList.remove('active');
+        });
+
+        history02.addEventListener('click', (e)=>{
+            e.preventDefault;
+            history00.classList.remove('active');
+            history01.classList.remove('active');
+            history02.classList.add('active');
+            history03.classList.remove('active');
+
+            con00.classList.remove('active');
+            con01.classList.remove('active');
+            con02.classList.add('active');
+            con03.classList.remove('active');
+        });
+
+        history03.addEventListener('click', (e)=>{
+            e.preventDefault;
+            history00.classList.remove('active');
+            history01.classList.remove('active');
+            history02.classList.remove('active');
+            history03.classList.add('active');
+
+            con00.classList.remove('active');
+            con01.classList.remove('active');
+            con02.classList.remove('active');
+            con03.classList.add('active');
+        });
+
+    </script>
+
+</body>
+</html>

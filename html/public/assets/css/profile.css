@@ -1,0 +1,129 @@
+.proContainer{
+    width: 100%;
+    height: 100%;
+}
+
+.myProfile{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 110px;
+    padding: 10px;
+}
+.border_bottom{
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.myProfile img{
+    object-fit: cover;
+    width: 30%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.myProfile .myProfileInfo{
+    padding-left: 15px;
+}
+
+.myProfileInfo h1{
+    font-size: 20px;
+    padding: 7px 0;
+}
+
+.myProfile i{
+    position: absolute;
+    font-size:20px;
+    right: 15px;
+    top: 40%;
+}
+
+.myhistory{
+    box-sizing: border-box;
+    width: 100%;
+    height: 70px;
+    padding: 3% 1%;
+}
+
+.myhistory>div{
+    display: inline-block;
+    box-sizing: border-box;
+    line-height: 45px;
+    width: 24%;
+    height: 100%;
+    text-align: center;
+    border-bottom: 3px solid #c2c2c2;
+}
+
+.myhistory>div:hover, .myhistory>div.active{
+    background-color: #FCDED9;
+    border-bottom: 3px solid #FD9E8E;
+    cursor: pointer;
+}
+
+/* 프로필 메뉴 */
+.profileMenu{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+}
+
+.profileMenu>div{
+    font-size: 20px;
+    padding-bottom: 3%;
+}
+
+.myProfile:hover,.profileMenu>div:hover{
+    cursor: pointer;
+}
+
+.profileMenu>div>p{
+    font-size: 18px;
+    padding-left: 3%;
+    display: inline;
+}
+
+.color00{
+    color: palevioletred;
+}
+
+.color01{
+    color: paleturquoise;
+}
+.color02{
+    color: palegreen;
+}
+
+/* 프로필 수정 */
+.myProfileEdit{
+    width: 100%;
+    height: 100%;
+    padding: 10% 0;
+    text-align: center;
+}
+
+.myProfileEdit img{
+    object-fit: cover;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+.myProfileEdit input{
+    width: 60%;
+    height: 30px;
+    margin: 10%;
+    border: 1px solid #c2c2c2;
+}
+
+.myProfileEdit button{
+    font-size: 15px;
+    width: 30%;
+    padding: 2%;
+    font-weight: bold;
+    color: #212121;
+    background-color: #c2c2c2;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=360,user-scale=yes,user-scalable=no,target-densitydpi=medium-dpi" /> 
+    <title>곰돌이마켓</title>
+
+    <!-- 구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Open+Sans:wght@300;400&display=swap"
+        rel="stylesheet">
+
+    <!-- 폰트 어썸 -->
+    <script src="https://use.fontawesome.com/11fd148789.js"></script>
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/top_bar_in/bars.css">
+    <link rel="stylesheet" href="./assets/css/profile.css">
+    <link rel="stylesheet" href="./assets/css/myAccount.css">
+</head>
+<body>
+    <!-- 상단바 -->
+    <div data-include="/inc/top_bar.html"></div>
+    <!-- 상단바 기능 -->
+    <div data-include="/inc/top_bar_in/bars.html"></div>
+
+    <div class="proContainer">
+        <div class="border_bottom">
+            <div class="myProfile clear margin00">
+                <img class="fl_right"src="./assets/img/ex01.jpg" alt="profile_img">
+                <div class="myProfileInfo fl_left">
+                    <h1>닉네임</h1>
+                    <p>당근가계부</p>
+                </div>
+            </div>
+    
+            <div class="saleList">
+                <div class="sale_number clear border_bottom">
+                    <p>판매 건수</p>
+                    <p class="fl_right">0건</p>
+                </div>
+                <div class="sale_amount clear">
+                    <p>판매액</p>
+                    <p class="fl_right">0원</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="myProfile clear margin00">
+                <img class="fl_left"src="./favicon.png" alt="profile_img">
+                <div class="myProfileInfo fl_right">
+                    <h1>당근 </h1>
+                    <p>이번달 가계부</p>
+                </div>
+            </div>
+    
+            <div class="saleList">
+                <div class="sale_number clear border_bottom">
+                    <p>판매 건수</p>
+                    <p class="fl_right">0건</p>
+                </div>
+                <div class="sale_amount clear">
+                    <p>판매액</p>
+                    <p class="fl_right">0원</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./assets/js/include.js"/></script>
+    <script defer src="./assets/js/top_bar.js"></script>
+
+</body>
+</html>

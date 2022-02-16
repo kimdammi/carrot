@@ -1,0 +1,77 @@
+.container{
+    width: 100%;
+    height: 100%;
+    
+}
+.reviewContainer{
+    box-sizing: border-box;
+    margin: auto;
+    padding-top: 30px;
+    width: 90%;
+    height: 100%;
+}
+
+/* .reviewImg{
+    margin: 30px;
+} */
+
+.reviewImg img{
+    width: 100%;
+}
+
+.reviewImg>div{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 32%;
+    height: 120px;
+    background-color: #fff;
+    vertical-align: middle;
+}
+
+.margin02{
+    margin-top:15px;
+}
+
+.margin03{
+    margin-top:20px;
+}
+
+.reviewImg>div.active{
+    border: 4px solid #c9aca8;
+}
+
+.reviewInput input{
+    margin:50px 0;
+    width: 100%;
+    height: 100px;
+}
+
+.reviewContainer button{
+    margin-right: 14px;
+    width: 45%;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #c2c2c2;
+    border-radius: 7px;
+    border: none;
+}
+
+.reviewContainer button.reviewBtn{
+    color: #fff;
+    background-color: #7D6E6B;
+}
+
+.reviewList>div{
+    box-sizing: border-box;
+    border-bottom: 4px solid #c2c2c2;
+}
+
+.reviewList .review{
+    box-sizing: border-box;
+    width: 60%;
+    height: 90px;
+    padding: 20px;
+    border-left: 1px solid #c2c2c2;
+}

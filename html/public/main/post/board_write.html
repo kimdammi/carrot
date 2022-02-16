@@ -1,0 +1,60 @@
+<!-- 판매글 작성 창 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- 폰트 어썸 -->
+    <script src="https://use.fontawesome.com/11fd148789.js"></script>
+
+    <link rel="stylesheet" href="../../assets/css/post/post_write.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <title>곰돌이마켓</title>
+
+</head>
+
+<body>
+    
+    <form name="form" id="post-form" action="" method="">
+        <!-- 상단 바 -->
+        <div class="top_bar text_left clear">
+            <p class="fl_left">게시판 글쓰기</p>
+            <input type="submit" value="완료" class="post_submit fl_right">
+        </div>
+
+        <div>
+            <select name="post_category" id="post_category">
+                <option value="category" selected>카테고리</option> <!--옵션미리 선탤됨-->
+                <option value="category" selected>category</option>
+            </select>
+        </div>
+
+        <div class="post_writing_container">
+            <div class="post_writing_img border_bottom">
+                <i class="fa fa-picture-o" aria-hidden="true"></i>
+            </div>
+
+            <div>
+                <textarea name="post_content" placeholder="내용을 입력해 주세요."></textarea>
+            </div>
+
+        </div>
+    </form>
+
+    <script>
+        document.querySelector("#post-form").addEventListener("submit",(e)=>{
+            e.preventDefault();
+            window.location.href = '../../board.html';
+        });
+    </script>
+</body>
+
+</html>

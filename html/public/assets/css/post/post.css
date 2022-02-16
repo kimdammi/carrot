@@ -1,0 +1,111 @@
+#post_img{
+    width: 100%;
+    height: width;
+}
+
+#post_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.post_container{
+    padding: 0 10px;
+}
+
+#post_title h1{
+    font-size: 25px;
+}
+
+#post_price{
+    font-size: 20px;
+}
+
+#post_command{
+    margin-top: 20px;
+}
+
+#post_command i,#post_command p{
+    display: inline;
+}
+
+#post_command button{
+    padding: 3px 7px;
+    color: #fff;
+    background-color: #7D4E46;
+    border-radius: 3px;
+    border:none;
+}
+
+#post_settings{
+    font-size: 20px;
+    position: fixed;
+    left : 340px;
+    top: 10px;
+}
+
+
+/* 댓글 */
+#post_com{
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    padding: 15px 10px;
+}
+
+#post_com .post_user_img{
+    width: 12%;
+    
+}
+
+.post_user{
+    width: 70%;
+    padding-left: 10px;
+    position: relative;
+}
+
+.post_user #user_nickname{
+    font-size: 15px;
+}
+
+.post_user #post_user_com{
+    font-size: 16px;
+}
+
+#post_uer_com{
+    height: 100%;
+}
+
+#com_settings{
+    position:absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#com_settings_edit{
+    position:absolute;
+    top: 26px;
+    right: 3px;
+    padding: 3px 5px;
+    font-size:13px;
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 3px;
+    display:none;
+}
+
+#com_settings_edit.open{
+    display: inline-block;
+}
+
+#depth_edit{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#depth_edit.open{
+    display: inline-block;
+}

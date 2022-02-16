@@ -1,0 +1,55 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 50
+    },
+    "auditLog": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\_files\\_logs\\.4ff098ead1349f65ec4bf4b8440cc8ff446c50c8-audit.json",
+    "files": [
+        {
+            "date": 1644245805732,
+            "name": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\_files\\_logs\\log_220207.log",
+            "hash": "92b6fc7835e9b5da9b9b9cfb284e55b7"
+        },
+        {
+            "date": 1644247453115,
+            "name": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\_files\\_logs\\log_220208.log",
+            "hash": "8b03589b56f09833476aa62f7779f96d"
+        },
+        {
+            "date": 1644412057933,
+            "name": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\_files\\_logs\\log_220209.log",
+            "hash": "6bb2ca9c60cb5236c7c5ae0df10d757a"
+        },
+        {
+            "date": 1644418866880,
+            "name": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\_files\\_logs\\log_220210.log",
+            "hash": "9d7a9544aad534cb537208c438630fe7"
+        },
+        {
+            "date": 1644582379291,
+            "name": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\_files\\_logs\\log_220211.log",
+            "hash": "e6c92cf8b8a2c4a99d438cdae391a556"
+        },
+        {
+            "date": 1644733727729,
+            "name": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\_files\\_logs\\log_220213.log",
+            "hash": "489ac713a6c2cc6c53984565b1c5a9d3"
+        },
+        {
+            "date": 1644765012473,
+            "name": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\_files\\_logs\\log_220214.log",
+            "hash": "51120d6883f16ca5a817eb5deb1e0948"
+        },
+        {
+            "date": 1644913762951,
+            "name": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\_files\\_logs\\log_220215.log",
+            "hash": "90aa276397d3f8f9a25aff61a46ee98a"
+        },
+        {
+            "date": 1644937218034,
+            "name": "C:\\Users\\USER\\Desktop\\당근마켓\\carrot\\_files\\_logs\\log_220216.log",
+            "hash": "81dcfd306e741525dedc8ed241867e1e"
+        }
+    ],
+    "hashType": "md5"
+}

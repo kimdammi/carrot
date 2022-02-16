@@ -1,0 +1,42 @@
+/* 햄버거바 css */
+.bars{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+.depth_sidebar{
+    width: 40%;
+    min-height: 100%;
+    background-color: #fff;
+    opacity: 0.6;
+}
+
+#sidebar{
+    position: relative;
+    width: 60%;
+    min-height: 100%;
+    background-color: #FCDED9;
+    opacity: 1;
+    font-size: 30px;
+}
+
+#sidebar .fa-times{
+    position: absolute;
+    font-size: 27px;
+    top: 10%;
+    right: 12px;
+}
+
+#sidebar .bar{
+    position: absolute;
+    top: 17%;
+    width: 100%;
+    text-align: center;
+}
+
+.bar>img, .bar>a>p{
+    margin-bottom: 15px;
+}

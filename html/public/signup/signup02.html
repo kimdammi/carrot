@@ -1,0 +1,62 @@
+<!-- 이메일입력 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/css/signup.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <title>곰돌이마켓</title>
+
+</head>
+
+<body>
+    <div class="top_bar text_left">
+        <p>비밀번호 입력</p>
+    </div>
+
+    <div class="text_left div_02 pad_left7 clear" style="margin-top:120px">
+        <img src="../assets/img/login2.PNG" alt="ok하는 곰돌이" class="fl_left" />
+        <p class="fl_left" style="margin-top:20px">비밀번호를 입력하세요.</p>
+    </div>
+    
+
+    <!-- signup부분 -->
+    <div class="div_01" style="margin-top:20px">
+        <!-- 비밀 번호 -->
+        <div id="signup_pw1">
+            <div class="clear div_03">
+                <p class="fl_left margin_top7">비밀 번호</p>
+                <input name="signup_pw1" id="signup_pw1" class="fl_left input_1 margin_top7 btn_WH" type="text" placeholder="인증 번호 입력" style="display:inline"/>
+            </div>
+        </div>
+
+        <!-- 비밀 번호 확인 -->
+        <div id="signup_pw2">
+            <div class="clear div_03">
+                <p class="fl_left margin_top7">비번 확인</p>
+                <input name="signup_pw2" id="signup_pw2" class="fl_left input_1 margin_top7 btn_WH" type="text" placeholder="인증 번호 입력" style="display:inline"/>
+            </div>
+            <button id="signup_pw" class="btn_3 margin_top7 btn_WH" type="button"
+                    formatarget="_blank">회원가입 하기</button>
+        </div>
+        
+    </div>
+
+    <script>
+        document.querySelector("#signup_pw").addEventListener("click", function (e) {
+            e.preventDefault();
+            window.location.href = './signup03.html';
+        });
+    </script>
+</body>
+
+</html>

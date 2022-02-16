@@ -1,0 +1,51 @@
+<!-- 이메일입력 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/css/signup.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <title>곰돌이마켓</title>
+
+</head>
+
+<body>
+    <div class="top_bar text_left">
+        <p>닉네임 정하기</p>
+    </div>
+
+    <div class="text_left div_02 pad_left7 clear" style="margin-top:120px">
+        <img src="../assets/img/login3.PNG" alt="절로가자 곰돌이" class="fl_left" />
+        <p class="fl_left" style="margin-top:20px">닉네임을 입력해주세요.</p>
+    </div>
+    
+
+    <!-- signup부분 -->
+    <div class="div_01" style="margin-top:20px">
+        <!-- 입력부분 -->
+        <input name="signup_nickname1" id="email_signup" class="input_1 margin_top7 btn_WH" type="text" placeholder="닉네임을 입력해주세요." />
+            
+        <!-- 이메일 입력 -->
+        <a href="#"><button id="signup_nickname" class="btn_3 margin_top7 btn_WH" type="button"
+                formatarget="_blank">닉네임 입력하기</button></a>
+        
+    </div>
+
+    <script>
+        document.querySelector("#signup_nickname").addEventListener("click", function (e) {
+            window.location.href = '../index.html';
+        });
+
+    </script>
+</body>
+
+</html>

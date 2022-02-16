@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=360,user-scale=yes,user-scalable=no,target-densitydpi=medium-dpi" />
+    <title>곰돌이마켓</title>
+
+    <!-- 구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Open+Sans:wght@300;400&display=swap"
+        rel="stylesheet">
+
+    <!-- 폰트 어썸 -->
+    <script src="https://use.fontawesome.com/11fd148789.js"></script>
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/top_bar_in/bars.css">
+    <link rel="stylesheet" href="./assets/css/top_bar_in/search.css">
+</head>
+
+<body>
+    <!-- 상단바 -->
+    <div data-include="/inc/top_bar.html"></div>
+    <!-- 상단바 기능 -->
+    <div data-include="/inc/top_bar_in/bars.html"></div>
+
+    <form action="">
+        <div class="searching-form">
+            <input type="text" class="searching" placeholder=" 검색어를 입력하세요.">
+            <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
+        </div>
+
+    </form>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./assets/js/include.js" />
+    </script>
+    <script defer src="./assets/js/top_bar.js"></script>
+    <script>
+        document.querySelector(".searching").addEventListener("click", (e) => {
+            e.preventDefault();
+            window.location.href = './searchMain.html';
+        });
+    </script>
+</body>
+
+</html>

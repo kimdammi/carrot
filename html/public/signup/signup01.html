@@ -1,0 +1,69 @@
+<!-- 이메일입력 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/css/signup.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <title>곰돌이마켓</title>
+
+</head>
+
+<body>
+    <div class="top_bar text_left">
+        <p>이메일 인증</p>
+    </div>
+
+    <div class="text_left div_02 pad_left7 clear" style="margin-top:120px">
+        <img src="../assets/img/login2.PNG" alt="ok하는 곰돌이" class="fl_left" />
+        <p class="fl_left" style="margin-top:20px">당근마켓은 이메일 가입해요
+            개인정보는 안전하게 보관되며 어디에도 공개되지 않아요.</p>
+    </div>
+    
+
+    <!-- signup부분 -->
+    <div class="div_01" style="margin-top:20px">
+        <!-- 입력부분 -->
+        <input name="signup_email" id="email_signup" class="input_1 margin_top7 btn_WH" type="text" placeholder="이메일을 입력해주세요." />
+            
+        <!-- 이메일 입력 -->
+        <a href="#"><button id="email_con1" class="btn_3 margin_top7 btn_WH" type="button"
+                formatarget="_blank">이메일 입력하기</button></a>
+
+        <!-- 이메일 인증번호 -->
+        <div id="email_certification" style="display: none">
+            <div class="clear div_03">
+                <p class="fl_left margin_top7">인증 번호</p>
+                <input name="signup_email_cert" id="email_signup_cert" class="fl_left input_1 margin_top7 btn_WH" type="text" placeholder="인증 번호 입력" style="display:inline"/>
+            </div>
+            <button id="email_con2" class="btn_3 margin_top7 btn_WH" type="button"
+                    formatarget="_blank">인증하기</button>
+        </div>
+        
+    </div>
+
+    <script>
+        document.querySelector("#email_con1").addEventListener("click", function (e) {
+            e.preventDefault();
+
+            document.querySelector("#email_con1").style.display='none';
+            document.querySelector("#email_certification").style.display='block';
+        });
+        document.querySelector("#email_con2").addEventListener("click", function (e) {
+            e.preventDefault();
+
+            window.location.href = './signup02.html';
+        });
+    </script>
+</body>
+
+</html>

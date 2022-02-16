@@ -1,0 +1,92 @@
+<!-- 판매 글 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Open+Sans:wght@300;400&display=swap"
+        rel="stylesheet">
+
+    <!-- 폰트 어썸 -->
+    <script src="https://use.fontawesome.com/11fd148789.js"></script>
+
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/post/post.css">
+    <title>곰돌이마켓</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- <i id="post_settings" class="fa fa-ellipsis-v" aria-hidden="true"></i> -->
+    
+        <div id="post_img">
+            <img src="../../assets/img/ex01.jpg" alt="게시글 이미지">
+        </div>
+        <div class="post_container">
+            <div id="post_title">
+                <h1>제목</h1>
+            </div>
+
+            <div id="post_price">가격</div>
+
+            <p id="post_contants">내용 : 꽃이 피고 희망의 놀이 뜨고 열락의 새가 운다사랑의 풀이 없으면 인간은 사막이다 오아이스도 없는 사막이다 보이는 끝까지 찾아다녀도 목숨이 있는 때까지 방황하여도 보이는 것은 거친 모래뿐일 것이다 이상의 꽃이 없으면 쓸쓸한 인간에</p>
+
+            <div id="post_command" class="border_bottom clear">
+                <i class="fa fa-comment-o" aria-hidden="true"></i>
+                <p class="comment">숫자</p>
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                <p class="like">숫자</p>
+
+                <button class="saleList fl_right">거래 내역</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="post_com" class="clear">
+        <div id="user_img" class="post_user_img fl_left">
+            <img src="../../assets/img/ex01.jpg" alt="사용자프로필이미지">
+        </div>
+        <div class="post_user fl_left">
+            <h1 id="user_nickname">닉네임</h1>
+            <p id="post_uer_com">댓글내용</p>
+            
+            <!-- <p>좋아요</p> -->
+        </div>
+        <i id="com_settings" class="fa fa-ellipsis-v com_edit_open" aria-hidden="true"></i>
+            <button id="com_settings_edit">수정하기</button>
+        <div id="depth_edit"></div>
+    </div>
+
+    <script>
+        let com_settings = document.querySelector("#com_settings");
+        let com_edit = document.querySelector("#com_settings_edit");
+        let depth_edit = document.querySelector("#depth_edit");
+
+        com_settings.addEventListener("click", function (e) {
+            com_edit.classList.add("open");
+            depth_edit.classList.add("open");
+            
+        });
+
+        depth_edit.addEventListener("click", function (e) {
+            com_edit.classList.remove("open");
+            depth_edit.classList.remove("open");
+        });
+
+        document.querySelector(".saleList").addEventListener("click", (e) => {
+            window.location.href = './saleList.html';
+        });
+
+
+    </script>
+</body>
+
+</html>

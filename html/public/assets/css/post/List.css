@@ -1,0 +1,36 @@
+.btn_deal{
+    width: 25%;
+    margin-top: 10%;
+    padding: 2%;
+    text-align: center;
+    background-color: #7D4E46;
+    color: #fff;
+}
+
+/* myList 거래 목록 */
+.historyCon{
+    width: 100%;
+    height: 100%;
+}
+
+.historyCon>div{
+    display: none;
+}
+
+.historyCon>div.active{
+    display: block;
+}
+
+.historyCon .salePost_img{
+    border-radius: 0;
+}
+
+.salePost_btn button{
+    display: block;
+    padding: 5px 10px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:#7D6E6B;
+    color: #fff;
+}

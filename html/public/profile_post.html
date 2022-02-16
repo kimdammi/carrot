@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=360,user-scale=yes,user-scalable=no,target-densitydpi=medium-dpi" /> 
+    <title>곰돌이마켓</title>
+
+    <!-- 구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Open+Sans:wght@300;400&display=swap"
+        rel="stylesheet">
+
+    <!-- 폰트 어썸 -->
+    <script src="https://use.fontawesome.com/11fd148789.js"></script>
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/top_bar_in/bars.css">
+    <link rel="stylesheet" href="./assets/css/profile.css">
+    <link rel="stylesheet" href="./assets/css/review.css">
+</head>
+<body>
+    <!-- 상단바 -->
+    <div data-include="/inc/top_bar.html"></div>
+    <!-- 상단바 기능 -->
+    <div data-include="/inc/top_bar_in/bars.html"></div>
+
+    <div class="proContainer">
+        <!-- 마이프로필-->
+        <!-- 이거 나눌순 없을까-->
+        <div class="myProfile clear border_bottom">
+            <img class="fl_left"src="./assets/img/ex01.jpg" alt="profile_img">
+            <div class="myProfileInfo fl_left">
+                <h1>닉네임</h1>
+                <p># 0000 </p>
+            </div>
+        </div>
+
+        <!-- 보여줄 목록 -->
+        <div class="profileMenu">
+            <div class="myReviewList"><i class="fa fa-heart color02" aria-hidden="true"></i><p>후기 리뷰</p></div>
+        </div>
+
+        <div class="reviewList">
+            <div class="clear">
+                <div class="reviewImg fl_left">
+                    <img class="margin03" src="../assets/img/review3.PNG" alt="review_img">
+                </div>
+                <div class="review fl_left">
+                    <p>굳굳</p>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./assets/js/include.js"/></script>
+    <script defer src="./assets/js/top_bar.js"></script>
+
+    <script>
+        
+    </script>
+
+</body>
+</html>
